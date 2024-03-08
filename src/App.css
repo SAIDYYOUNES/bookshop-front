@@ -1,40 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'Bosca';
-    src: url('/fonts/bosca/Bosca-Bold.ttf') format('ttf'),
-        url('/fonts/bosca/Bosca-Bold.woff') format('woff'),
-        url('/fonts/bosca/Bosca-Bold.woff2') format('woff2');
-    font-weight: 700;
-}
 
-@font-face {
-    font-family: 'Bosca';
-    src: url('/fonts/bosca/Bosca-Light.ttf') format('ttf'),
-        url('/fonts/bosca/Bosca-Light.woff') format('woff'),
-        url('/fonts/bosca/Bosca-Light.woff2') format('woff2');
-    font-weight: 200;
-}
-
-@font-face {
-    font-family: 'Bosca';
-    src: url('/fonts/bosca/Bosca-Medium.ttf') format('ttf'),
-        url('/fonts/bosca/Bosca-Medium.woff') format('woff'),
-        url('/fonts/bosca/Bosca-Medium.woff2') format('woff2');
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: 'Bosca';
-    src: url('/fonts/bosca/Bosca-Regular.ttf') format('ttf'),
-        url('/fonts/bosca/Bosca-Regular.woff') format('woff'),
-        url('/fonts/bosca/Bosca-Regular.woff2') format('woff2');
-    font-weight: 400;
-}
 
 
 body {

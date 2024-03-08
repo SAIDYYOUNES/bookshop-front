@@ -8,8 +8,8 @@ export interface Ibook {
     reviews: Ireview[];
 }
 
-export interface IBookCardProps {
-    book: Ibook;
+export interface IbookProp {
+    book : Omit<Ibook,'reviews'>
 }
 
 export interface IBooks {
