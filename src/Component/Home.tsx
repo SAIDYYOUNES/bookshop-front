@@ -20,11 +20,11 @@ export default function Home() {
     <>
       <div className="pt-24 pb-[2rem] text-center flex justify-center flex-col gap-10 items-center visible">
         <header className="flex relative justify-center">
-          <h1 className="text-gray-800 relative text-7xl md:w-2/3 w-full z-10 font-bosca">
+          <h1 data-cy={'quote'} className="text-gray-800 relative text-7xl md:w-2/3 w-full z-10 font-bosca">
             A Reader Lives a Thousand Lives Before he Dies.
           </h1>
         </header>
-        <div className="" >
+        <div data-cy={'search-box'} >
           <div className="search-box flex relative items-center transition-all focus-within:w-[500px]">
             <input value={search} onChange={(e) => setSearch(e.target.value)} type="text" name="search" placeholder="Search by book or author" className="input-search outline-none rounded-full border-gray-800 border-2 bg-transparent py-4 px-5 w-full" />
             <button type="submit" className="search-icon bg-[#54bab9] rounded-full inline-flex items-center justify-center p-2 w-12 h-12 absolute right-2">
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       </div>
       {!loading ?
-        <div className="books-cards pt-10 mb-16">
+        <div data-cy={'books-cards'} className="books-cards pt-10 mb-16">
           {books.books.map((book: Ibook) => {
             return (
               <BookCard key={book.id} book={book} />

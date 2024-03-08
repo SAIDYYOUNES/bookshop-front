@@ -27,7 +27,7 @@ export default function Book() {
 
                 <header className="flex items-center justify-between">
                     <div className="w-1/2" >
-                        <h1 className="book-title text-5xl mb-6">
+                        <h1 data-cy={'title'} className="book-title text-5xl mb-6">
                             {book.title} <span className="text-lg text-gray-500 align-middle">- {book.publicationDate.slice(0, 4)}</span>
                         </h1>
                     </div>

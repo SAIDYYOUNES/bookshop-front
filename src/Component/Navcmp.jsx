@@ -5,7 +5,7 @@ export default function Nav() {
         <>
             <div className=''>
                 <nav className="flex justify-center items-center py-5">
-                    <a href="/">
+                    <a data-cy={'home'} href="/">
                         <svg className="w-44" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 257.25 120.249995" preserveAspectRatio="xMidYMid meet" version="1.0">
                             <defs>
                                 <g></g>
